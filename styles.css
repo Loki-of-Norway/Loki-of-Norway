@@ -1,0 +1,171 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #8b5e3c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border: 5px solid #ff69b4; /* Rosa kant */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    margin: 0;
+}
+
+header h2 {
+    color: #ff69b4; /* Kraftigere rosa */
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-bottom: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', Arial, sans-serif; /* Ny font */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#toggle-music {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#toggle-music:hover {
+    background-color: #e062a8;
+}
+
+#back-to-top {
+    background-color: #8b5e3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#back-to-top:hover {
+    background-color: #6f462e;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #a66180;
+}
+
+img {
+    width: calc(100% - 30px); /* Gjør bildet til å fylle hele bredden av seksjonen */
+    max-width: none; /* Sett maks bredde for bildene */
+    height: auto;
+    display: block;
+    margin: 15px auto; /* Legg til margin rundt bildene */
+    border: 15px solid transparent; /* Usynlig border */
+    box-sizing: border-box; /* Inkluder border i bildets bredde */
+}
+
+
+footer {
+    background-color: #8b5e3c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border: 5px solid #ff69b4; /* Rosa kant */
+    box-sizing: border-box;
+    font-size: 12px; /* Justert skriftstørrelse */
+    padding: 10px; /* Litt ekstra padding */
+}
+
+.extra-space {
+    height: 150px; /* Ekstra plass for å unngå overlapping med footer */
+}
+
+.floating-menu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #8b5e3c; /* Brun */
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px; /* Runde kanter */
+    display: none; /* Skjul som standard */
+    border: 2px solid #ff69b4;
+    z-index: 1000;
+}
+
+.floating-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.floating-menu ul li {
+    margin-bottom: 10px;
+}
+
+.floating-menu ul li a {
+    color: #ff69b4; /* Rosa */
+    text-decoration: none;
+    font-family: 'Roboto', Arial, sans-serif; /* Ny font */
+}
+
+.floating-menu ul li a:hover {
+    text-decoration: underline;
+}
+
